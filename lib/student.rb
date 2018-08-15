@@ -27,7 +27,7 @@ class Student
   end 
   
   def self.update 
-    sql = "UPDATE "
+    sql = "UPDATE students WHERE "
   end 
   
   def save 
