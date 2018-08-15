@@ -27,7 +27,9 @@ class Student
   end 
   
   def self.update 
-    
+    sql = <<-SQL
+      
+    SQL
   end 
   
   def save 
