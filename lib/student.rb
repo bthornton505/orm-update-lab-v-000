@@ -26,6 +26,10 @@ class Student
     DB[:conn].execute(sql)
   end 
   
+  def self.update 
+    
+  end 
+  
   def save 
     if self.id 
       self.update 
