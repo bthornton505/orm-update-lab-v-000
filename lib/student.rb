@@ -14,6 +14,8 @@ class Student
       CREATE TABLE students (
       id INTEGER PRIMARY KEY)
     SQL
+    
+    DB[:conn].execute(sql)
   end 
   
 end
