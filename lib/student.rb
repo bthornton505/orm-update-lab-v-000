@@ -36,8 +36,8 @@ class Student
   end 
   
   def self.new_from_db(row)
-    student = Student.new 
-    
+    student = self.new 
+    student.name = row
   end 
   
 end
