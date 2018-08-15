@@ -32,7 +32,7 @@ class Student
     SQL
     
     DB[:conn].execute(sql, self.name, self.grade)
-    @id = 
+    @id = DB[:conn].execute("SELECT * FROM ")
   end 
   
 end
