@@ -32,7 +32,7 @@ class Student
     SQL
     
     DB[:conn].execute(sql, self.name, self.grade)
-    @id = DB[:conn].execute("SELECT * FROM ")
+    @id = DB[:conn].execute("SELECT last_ FROM ")
   end 
   
 end
