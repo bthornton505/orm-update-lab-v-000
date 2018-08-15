@@ -45,7 +45,7 @@ class Student
   end 
   
   def self.create 
-    
+    student = Student.new()
   end 
   
   # def self.new_from_db(row)
